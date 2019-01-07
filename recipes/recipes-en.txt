@@ -1,0 +1,127 @@
+! uMatrix: Ruleset recipes 1.0
+! Title: Some common ruleset (EN)
+! Maintainer: mino
+!
+
+Medium as 3rd-party
+    * medium.com
+        _ medium.com cookie
+        _ cdn-static-1.medium.com script
+
+Netlify
+    netlify.com *
+        _ 1st-party script
+
+Paypal
+    paypal.com *
+        _ 1st-party script
+        _ paypalobjects.com *
+        _ paypalobjects.com frame
+
+Dropbox
+    dropbox.com *
+        _ 1st-party script
+        _ dropboxstatic.com *
+
+Firefox
+    firefox.com *
+        _ 1st-party script
+        _ mozilla.net *
+        _ mozilla.net script
+
+Github
+    github.com *
+        _ 1st-party script
+        _ githubusercontent.com *
+        _ githubassets.com *
+        ! Required for raw/diff view of some files (e.g. pictures, pdf, svg)
+        _ render.githubusercontent.com script
+        _ render.githubusercontent.com frame
+        _ raw.githubusercontent.com *
+        _ raw.githubusercontent.com xhr
+        ! Required for uploading pictures in comments
+        _ github-production-user-asset-6210df.s3.amazonaws.com xhr
+        ! Required for uploading other files in comments
+        _ github-production-repository-file-5c1aeb.s3.amazonaws.com xhr
+
+Github Button
+    * buttons.github.io
+        _ buttons.github.io script
+        _ api.github.com xhr
+
+! ===================== Google =====================
+
+Youtube
+    youtube.com *
+        _ 1st-party script
+        _ googlevideo.com *
+        _ googlevideo.com xhr
+        _ ytimg.com *
+		    _ ytimg.com script
+        _ google.com cookie
+
+Google reCaptcha
+    * www.google.com
+        _ www.google.com *
+        _ www.google.com script
+        _ www.google.com frame
+        _ www.gstatic.com *
+        _ www.gstatic.com script
+
+Google Translate (api)
+    * translate.googleapis.com
+        * translate.googleapis.com xhr
+
+jQuery code
+    * code.jquery.com
+        _ code.jquery.com *
+        _ code.jquery.com script
+
+jsDelivr (globaly)
+    * cdn.jsdelivr.net
+        * cdn.jsdelivr.net *
+        * cdn.jsdelivr.net script
+
+unpkg (globaly)
+    * unpkg.com
+        * unpkg.com *
+        * unpkg.com script
+
+! ===================== Amazon =====================
+
+Amazon CloudFront
+    * cloudfront.net
+        _ cloudfront.net *
+        _ cloudfront.net script
+
+Amazon awsstatic
+    * awsstatic.com
+        _ awsstatic.com *
+        _ awsstatic.com script
+
+Cloudflare (rocket loader)
+    * ajax.cloudflare.com
+        _ ajax.cloudflare.com *
+        _ ajax.cloudflare.com script
+
+Cloudflare as 3rd-party
+    * cloudflare.com
+        _ cloudflare.com xhr
+        _ cdnjs.cloudflare.com script
+        _ ajax.cloudflare.com script
+
+Algolia as 3rd-party
+    * algolia.net
+        _ algolia.net *
+        _ algolia.net script
+        _ algolia.net xhr
+        _ algolianet.com script
+        _ algolianet.com xhr
+
+npm search (api)
+    * npmsearch.com
+        * npmsearch.com xhr
+
+img.shields.io
+    * img.shields.io
+        * img.shields.io image

@@ -1,0 +1,28 @@
+! Title: uBlock filters (CN)
+! Expires: 2 days
+! Description: 把一些觉得不重要的东西屏蔽掉
+! Homepage: https://github.com/minosss/my/tree/lab/uAssets
+!
+
+||msg.qy.net^$third-party
+||*.yiqifa.*^$third-party
+||mlnbike.com
+
+! smzdm 只看主要内容
+www.smzdm.com###feed-side
+www.smzdm.com##.feed-right-hot
+www.smzdm.com###footer
+
+! iqiyi 只看视频
+! 客户端入口
+www.iqiyi.com###nav_appDown
+! 推荐
+www.iqiyi.com###contentArea.qy-play-con
+! 信息
+www.iqiyi.com###titleRow.qy-player-intro
+www.iqiyi.com##.qy-player-detail-con > .detail-sd
+www.iqiyi.com###block-M.qy-play-bottom
+! 列表下面的推荐视频
+www.iqiyi.com###widget-movie-newtidbits.qy-player-side-list
+www.iqiyi.com###widget-videorezebra.qy-player-side-list
+www.iqiyi.com###widget-movie-superseries.qy-player-side-list
