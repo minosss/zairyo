@@ -37,6 +37,7 @@
         _ 1st-party script
         _ 71edge.com xhr
         _ ourdvsss.com xhr
+        _ stc.iqiyipic.com script
 
 哔哩哔哩
     bilibili.com *
