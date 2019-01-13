@@ -57,8 +57,9 @@ Youtube
         _ googlevideo.com *
         _ googlevideo.com xhr
         _ ytimg.com *
-		    _ ytimg.com script
+		_ ytimg.com script
         _ google.com cookie
+        _ google.com frame
 
 Google reCaptcha
     * www.google.com
