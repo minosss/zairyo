@@ -60,6 +60,8 @@ Youtube
 		_ ytimg.com script
         _ google.com cookie
         _ google.com frame
+        ! autocomplete
+        _ clients1.google.com script
 
 Google reCaptcha
     * www.google.com
