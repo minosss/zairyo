@@ -75,6 +75,10 @@ Google Translate (api)
     * translate.googleapis.com
         * translate.googleapis.com xhr
 
+Google Hosted Libraries
+    * ajax.googleapis.com
+        _ ajax.googleapis.com script
+
 jQuery code
     * code.jquery.com
         _ code.jquery.com *
