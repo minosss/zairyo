@@ -6,6 +6,7 @@
 Medium as 3rd-party
     * medium.com
         _ medium.com cookie
+        _ medium.com xhr
         _ cdn-static-1.medium.com script
 
 Netlify
