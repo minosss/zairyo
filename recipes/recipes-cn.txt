@@ -18,6 +18,8 @@
     * alipayobjects.com
         _ alipayobjects.com *
         _ alipayobjects.com script
+        _ alibaba.com *
+        _ alicdn.com *
 
 网易家
     * nosdn.127.net
