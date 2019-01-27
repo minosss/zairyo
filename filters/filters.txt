@@ -7,6 +7,7 @@
 ||msg.qy.net^$third-party
 ||*.yiqifa.*^$third-party
 ||mlnbike.com
+||parking.zunmi.cn
 
 ! smzdm 只看主要内容
 www.smzdm.com###feed-side
