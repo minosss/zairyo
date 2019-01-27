@@ -1,7 +1,7 @@
 ! Title: uBlock filters (CN)
 ! Expires: 2 days
 ! Description: 把一些觉得不重要的东西屏蔽掉
-! Homepage: https://github.com/minosss/my/tree/lab/uAssets
+! Homepage: https://github.com/minosss/ex-assets
 !
 
 ||msg.qy.net^$third-party
@@ -22,7 +22,12 @@ www.iqiyi.com###contentArea.qy-play-con
 www.iqiyi.com###titleRow.qy-player-intro
 www.iqiyi.com##.qy-player-detail-con > .detail-sd
 www.iqiyi.com###block-M.qy-play-bottom
+www.iqiyi.com##.qy-player-side-ear
 ! 列表下面的推荐视频
 www.iqiyi.com###widget-movie-newtidbits.qy-player-side-list
 www.iqiyi.com###widget-videorezebra.qy-player-side-list
 www.iqiyi.com###widget-movie-superseries.qy-player-side-list
+! 页脚
+!www.iqiyi.com###block-AR.qy-footer-channel
+
+bbs.talkop.com###diy_chart
