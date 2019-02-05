@@ -28,6 +28,7 @@ www.iqiyi.com##.qy-player-side-ear
 www.iqiyi.com###widget-movie-newtidbits.qy-player-side-list
 www.iqiyi.com###widget-videorezebra.qy-player-side-list
 www.iqiyi.com###widget-movie-superseries.qy-player-side-list
+www.iqiyi.com##.qy-scroll-vpro
 ! 页脚
 !www.iqiyi.com###block-AR.qy-footer-channel
 

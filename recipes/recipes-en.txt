@@ -9,6 +9,16 @@ Medium as 3rd-party
         _ medium.com xhr
         _ cdn-static-1.medium.com script
 
+Trello
+    trello.com *
+        _ 1st-party script
+        _ trellocdn.com script
+
+Launchdarkly as 3rd-party
+    * launchdarkly.com
+        _ launchdarkly.com cookie
+        _ launchdarkly.com xhr
+
 Netlify
     netlify.com *
         _ 1st-party script
