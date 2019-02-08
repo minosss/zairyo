@@ -1,7 +1,7 @@
 ! uMatrix: Ruleset recipes 1.0
 ! Title: Some common ruleset (CN)
 ! Maintainer: mino
-! Last updated: Wed, 06 Feb 2019 22:23:56
+! Last updated: Fri, 08 Feb 2019 16:32:11
 !
 
 知乎
@@ -54,6 +54,7 @@
     pan.baidu.com *
         _ 1st-party script
         _ baidupcs.com xhr
+        _ bdstatic.com script
 
 京东
     jd.com *
@@ -74,3 +75,8 @@ API: Huihui (globaly)
         _ res.wx.qq.com script
         _ open.weixin.qq.com script
         _ open.weixin.qq.com frame
+
+看动画
+    donghua.agefans.com *
+        _ ajax.cloudflare.com script
+        _ ftn.qq.com media
