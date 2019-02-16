@@ -1,7 +1,7 @@
 ! uMatrix: Ruleset recipes 1.0
 ! Title: Some common ruleset (EN)
 ! Maintainer: mino
-! Last updated: Wed, 06 Feb 2019 22:23:56
+! Last updated: Sat, 16 Feb 2019 19:48:41
 !
 
 Medium as 3rd-party
@@ -9,6 +9,21 @@ Medium as 3rd-party
         _ medium.com cookie
         _ medium.com xhr
         _ cdn-static-1.medium.com script
+
+Pusher as 3rd-party
+    * pusher.com
+        _ pusher.com cookie
+        _ js.pusher.com script
+
+Stripe as 3rd-party
+    * stripe.com
+        _ stripe.com cookie
+        _ js.stripe.com script
+        _ js.stripe.com frame
+        _ m.stripe.com xhr
+        _ m.stripe.network cookie
+        _ m.stripe.network script
+        _ m.stripe.network frame
 
 Trello
     trello.com *
