@@ -80,3 +80,4 @@ API: Huihui (globaly)
     donghua.agefans.com *
         _ ajax.cloudflare.com script
         _ ftn.qq.com media
+        _ tcdn.qq.com media
