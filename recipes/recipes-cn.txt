@@ -81,3 +81,10 @@ API: Huihui (globaly)
         _ ajax.cloudflare.com script
         _ ftn.qq.com media
         _ tcdn.qq.com media
+
+geetest服务
+    * geetest.com
+        _ api.geetest.com script
+        _ api.geetest.com cookie
+        _ api.geetest.com xhr
+        _ static.geetest.com script
