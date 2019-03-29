@@ -13,7 +13,8 @@ Medium as 3rd-party
 Pusher as 3rd-party
     * pusher.com
         _ pusher.com cookie
-        _ js.pusher.com script
+        _ pusher.com script
+        _ pusher.com xhr
 
 Stripe as 3rd-party
     * stripe.com
