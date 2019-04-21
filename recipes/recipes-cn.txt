@@ -42,6 +42,7 @@
         _ ourdvsss.com xhr
         _ jomodns.com xhr
         _ stc.iqiyipic.com script
+        _ ksyungslb.com xhr
 
 哔哩哔哩
     bilibili.com *
