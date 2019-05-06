@@ -2,9 +2,10 @@
 ! Expires: 2 days
 ! Description: 把一些觉得不重要的东西屏蔽掉
 ! Homepage: https://github.com/minosss/ex-assets
-! Last updated: Wed, 06 Feb 2019 22:23:56
+! Last updated: Mon, 06 May 2019 14:08:49
 !
 
+||livere.com^$third-party
 ||msg.qy.net^$third-party
 ||*.yiqifa.*^$third-party
 ||mlnbike.com
@@ -34,3 +35,10 @@ www.iqiyi.com##.qy-scroll-vpro
 !www.iqiyi.com###block-AR.qy-footer-channel
 
 bbs.talkop.com###diy_chart
+
+xclient.info###abptip
+
+! https://www.baidu.com
+www.baidu.com##.c-border
+www.baidu.com###content_right
+www.baidu.com###s_wrap
