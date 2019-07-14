@@ -2,7 +2,7 @@
 ! Expires: 2 days
 ! Description: 把一些觉得不重要的东西屏蔽掉
 ! Homepage: https://github.com/minosss/ex-assets
-! Last updated: Mon, 06 May 2019 14:08:49
+! Last updated: Sun, 14 Jul 2019 18:16:42
 !
 
 ||livere.com^$third-party
@@ -30,15 +30,50 @@ www.iqiyi.com##.qy-player-side-ear
 www.iqiyi.com###widget-movie-newtidbits.qy-player-side-list
 www.iqiyi.com###widget-videorezebra.qy-player-side-list
 www.iqiyi.com###widget-movie-superseries.qy-player-side-list
-www.iqiyi.com##.qy-scroll-vpro
 ! 页脚
 !www.iqiyi.com###block-AR.qy-footer-channel
 
 bbs.talkop.com###diy_chart
 
+! 05/02/2019 https://www.iqiyi.com
+www.iqiyi.com##.qy-scroll-vpro
+
+! 21/03/2019 https://xclient.info
 xclient.info###abptip
 
-! https://www.baidu.com
+! 03/05/2019 https://www.baidu.com
 www.baidu.com##.c-border
 www.baidu.com###content_right
 www.baidu.com###s_wrap
+
+! 04/05/2019 https://wapp.flyoffline.com
+wapp.flyoffline.com##.weui-animate-fade-in.weui-dialog
+wapp.flyoffline.com##.weui-animate-fade-in.weui-mask
+
+! 04/05/2019 http://toolher.com
+toolher.com##div.w-row:nth-of-type(4)
+
+! 13/05/2019 https://unbug.github.io
+unbug.github.io##.donate
+
+! 26/05/2019 https://www.django-rest-framework.org
+www.django-rest-framework.org##.sidebar-nav-fixed.well.side-nav.nav-list.nav > .promo
+
+! 06/06/2019 https://laravel-admin.org
+laravel-admin.org##.adblock-notice
+
+! 08/06/2019 https://www.pornhub.com
+www.pornhub.com###vpContentContainer > milktruck
+
+! 19/06/2019 https://www.pornhub.com
+www.pornhub.com##qnify
+www.pornhub.com###vpContentContainer > *:nth-child(2)
+www.pornhub.com###videoSearchResult > .alpha
+www.pornhub.com###videoCategory > .alpha
+www.pornhub.com###incategoryVideos > .alpha
+
+! 09/07/2019 https://www.facebook.com
+www.facebook.com###pagelet_growth_expanding_cta
+
+! 10/07/2019 https://www.photopea.com
+www.photopea.com##.photopea.flexrow > div:nth-of-type(2)
