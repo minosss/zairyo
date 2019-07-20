@@ -2,7 +2,7 @@
 ! Expires: 2 days
 ! Description: 把一些觉得不重要的东西屏蔽掉
 ! Homepage: https://github.com/minosss/ex-assets
-! Last updated: Sun, 14 Jul 2019 18:16:42
+! Last updated: Sat, 20 Jul 2019 21:56:41
 !
 
 ||livere.com^$third-party
@@ -10,6 +10,17 @@
 ||*.yiqifa.*^$third-party
 ||mlnbike.com
 ||parking.zunmi.cn
+
+# Youku
+
+||valipl-vip.cp31.ott.cibntv.net^$media
+||valipl.cp31.ott.cibntv.net^$media
+
+v.youku.com##.h5-ext-layer
+v.youku.com##.g-footer
+v.youku.com##div.h5player-dashboard:style(display: block !important)
+v.youku.com##div.l-container:nth-of-type(2)
+v.youku.com###bpmodule-playpage-segments
 
 ! smzdm 只看主要内容
 www.smzdm.com###feed-side
