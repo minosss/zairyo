@@ -11,7 +11,7 @@
 ||mlnbike.com
 ||parking.zunmi.cn
 
-# Youku
+! Youku
 
 ||valipl-vip.cp31.ott.cibntv.net^$media
 ||valipl.cp31.ott.cibntv.net^$media
