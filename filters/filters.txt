@@ -2,7 +2,7 @@
 ! Expires: 2 days
 ! Description: 把一些觉得不重要的东西屏蔽掉
 ! Homepage: https://github.com/minosss/ex-assets
-! Last updated: Sat, 20 Jul 2019 21:56:41
+! Last updated: Thu, 25 Jul 2019 18:21:08
 !
 
 ||livere.com^$third-party
@@ -10,6 +10,12 @@
 ||*.yiqifa.*^$third-party
 ||mlnbike.com
 ||parking.zunmi.cn
+
+! manhuadui
+
+www.manhuadui.com##.topTheme:style(margin-top: 0 !important)
+www.manhuadui.com##.also_see
+||sp0.baidu.com^$third-party
 
 ! Youku
 
