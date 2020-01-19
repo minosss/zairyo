@@ -4,6 +4,8 @@
 // @version      0.1
 // @description  添加资源网站播放入口，直接播放m3u8链接
 // @author       mino
+// @supportURL   https://github.com/minosss/ex-assets
+// @updateURL    https://github.com/minosss/ex-assets/raw/master/cabbage.user.js
 // @match        https://www.okzy.co/?m=*
 // @connect      https://www.dplayer.tv
 // @grant        none
