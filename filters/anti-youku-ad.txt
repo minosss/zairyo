@@ -1,0 +1,9 @@
+! Title: uBlock filters (Youku AD)
+! Expires: 1 days
+! Description: 优酷广告
+! Homepage: https://github.com/minosss/ex-assets
+! Last updated: Mon, 20 Jan 2020 09:40:56
+!
+
+||valipl-vip.cp31.ott.cibntv.net^$media
+||valipl.cp31.ott.cibntv.net^$media
