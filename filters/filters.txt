@@ -2,7 +2,7 @@
 ! Expires: 1 days
 ! Description: 把一些觉得不重要的东西屏蔽掉
 ! Homepage: https://github.com/minosss/ex-assets
-! Last updated: 2020-09-26 15:09:51
+! Last updated: 2021-09-26 16:31:07
 !
 
 ||livere.com^$third-party
@@ -11,6 +11,12 @@
 ||parking.zunmi.cn
 ||fadskis.com^
 ||fadsips.com^
+||xiaodouban.com
+||joke6.com
+||szhxcc.net
+||mbwpdy.com
+||hhblue.com
+
 v.shensgo.com##.col-pd.stui-player > [href^="http://shensgo.xyz/app/index.php"]
 
 
@@ -44,6 +50,81 @@ www.iqiyi.com##.qy-player-detail-con > .detail-sd
 www.iqiyi.com###block-M.qy-play-bottom
 www.iqiyi.com##.qy-player-side-ear
 www.iqiyi.com###widget-movie-newtidbits.qy-player-side-list
+www.iqiyi.com###widget-videorezebra.qy-player-side-list
+www.iqiyi.com###widget-movie-superseries.qy-player-side-list
+!www.iqiyi.com###block-AR.qy-footer-channel
+www.iqiyi.com##.qy-scroll-vpro
+||msg.qy.net^$third-party
+||*.yiqifa.*^$third-party
+
+
+! BAIDU
+www.baidu.com##.c-border
+www.baidu.com###content_right
+www.baidu.com###s_wrap
+||issuecdn.baidupcs.com/issue/netdisk/guanggao/71090-20191001.png$image
+||sp0.baidu.com^$third-party
+
+! 2021-01-28 https://www.cocomanhua.com
+@@||cdn.cocomanhua.com.cdn.cloudflare.net^$script,domain=www.cocomanhua.com
+
+! 2021-01-28 https://www.speedtest.cn
+www.speedtest.cn##.speed-bottom-ads
+
+! https://www.88kan.com 应用广告
+www.88kan.com##.main > [href="https://www.88ys.app"]
+www.88kan.com##.main > [href="https://www.88ys.app"]
+www.88kan.com##[src="/images/app.png"]
+
+! https://item.jd.com 高亮提示
+!item.jd.com###summary-tips:style(font-size:16px)
+!item.jd.com###summary-tips .local-txt:style(color: #f00 !important)
+! 不要用 app
+item.jd.com##.jdm-toolbar-footer .jdm-tbar-tab-qrcode
+item.jd.com##.jdm-toolbar-footer .toolbar-qrcode
+
+! 2021-03-13 https://www.agefans.net
+www.agefans.net##.app-dl
+
+! 2021-03-25 https://detail.tmall.com
+detail.tmall.com##.sufei-dialog
+detail.tmall.com##.baxia-dialog
+
+! 2021-03-31 https://2x.antdv.com
+2x.antdv.com##.adblock-banner
+
+! 2021-03-31 https://www.agefans.net
+www.agefans.net##[href^="https://vip.huijujiavip.com:8443"]
+
+! 2021-05-12 https://www.mh1234.com
+www.mh1234.com##.outline.hotUpdate
+
+||poasotha.com
+||glixaing.com
+||outoctillerytor.com
+||oaftaijo.net
+||shoagooy.net
+||sheeroop.com
+! 2021-08-04 https://www.nixsensor.com
+||secure.livechatinc.com/customer/action/open_chat$subdocument
+
+! 2021-08-17 https://javtiful.com
+javtiful.com##.mb-lg-3.jk-money.content-section
+
+! 2021-08-19 https://www.cocomanhua.com
+@@||cdn.cocomanhua.com.cdn.cloudflare.net^$stylesheet,domain=www.cocomanhua.com
+
+! 2021-09-15 https://weav.xyz
+weav.xyz###zec26681196a36e1ce968c648529d5563
+
+! 2021-09-16 https://xclient.info
+xclient.info##.abptip
+
+! 2021-09-25 https://javhub.net
+javhub.net##._ciw-wrap
+javhub.net##._ciw-show__b._ciw-show__r._ciw__r._ciw__b._ciw-widget
+
+
 www.iqiyi.com###widget-videorezebra.qy-player-side-list
 www.iqiyi.com###widget-movie-superseries.qy-player-side-list
 !www.iqiyi.com###block-AR.qy-footer-channel
