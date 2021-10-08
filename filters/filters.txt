@@ -2,7 +2,7 @@
 ! Expires: 1 days
 ! Description: 把一些觉得不重要的东西屏蔽掉
 ! Homepage: https://github.com/minosss/ex-assets
-! Last updated: 2021-09-26 16:31:07
+! Last updated: 2021-10-08 15:13:55
 !
 
 ||livere.com^$third-party
@@ -16,9 +16,12 @@
 ||szhxcc.net
 ||mbwpdy.com
 ||hhblue.com
-
-v.shensgo.com##.col-pd.stui-player > [href^="http://shensgo.xyz/app/index.php"]
-
+||poasotha.com
+||glixaing.com
+||outoctillerytor.com
+||oaftaijo.net
+||shoagooy.net
+||sheeroop.com
 
 ! MANHUADUI
 www.manhuadui.com##.topTheme:style(margin-top: 0 !important)
@@ -68,69 +71,46 @@ www.baidu.com###s_wrap
 ! 2021-01-28 https://www.cocomanhua.com
 @@||cdn.cocomanhua.com.cdn.cloudflare.net^$script,domain=www.cocomanhua.com
 
-! 2021-01-28 https://www.speedtest.cn
+! ad
 www.speedtest.cn##.speed-bottom-ads
+xclient.info##.abptip
+2x.antdv.com##.adblock-banner
 
-! https://www.88kan.com 应用广告
+! anti app
 www.88kan.com##.main > [href="https://www.88ys.app"]
 www.88kan.com##.main > [href="https://www.88ys.app"]
 www.88kan.com##[src="/images/app.png"]
+v.shensgo.com##.col-pd.stui-player > [href^="http://shensgo.xyz/app/index.php"]
+www.agefans.vip##.app-dl
 
-! https://item.jd.com 高亮提示
-!item.jd.com###summary-tips:style(font-size:16px)
-!item.jd.com###summary-tips .local-txt:style(color: #f00 !important)
+! jd
+! 高亮温馨提示
+item.jd.com###summary-tips:style(font-size:16px)
+item.jd.com###summary-tips .local-txt:style(color: #f00 !important)
 ! 不要用 app
 item.jd.com##.jdm-toolbar-footer .jdm-tbar-tab-qrcode
 item.jd.com##.jdm-toolbar-footer .toolbar-qrcode
-
-! 2021-03-13 https://www.agefans.net
-www.agefans.net##.app-dl
 
 ! 2021-03-25 https://detail.tmall.com
 detail.tmall.com##.sufei-dialog
 detail.tmall.com##.baxia-dialog
 
-! 2021-03-31 https://2x.antdv.com
-2x.antdv.com##.adblock-banner
-
-! 2021-03-31 https://www.agefans.net
-www.agefans.net##[href^="https://vip.huijujiavip.com:8443"]
-
 ! 2021-05-12 https://www.mh1234.com
 www.mh1234.com##.outline.hotUpdate
 
-||poasotha.com
-||glixaing.com
-||outoctillerytor.com
-||oaftaijo.net
-||shoagooy.net
-||sheeroop.com
 ! 2021-08-04 https://www.nixsensor.com
 ||secure.livechatinc.com/customer/action/open_chat$subdocument
 
-! 2021-08-17 https://javtiful.com
+! jav
 javtiful.com##.mb-lg-3.jk-money.content-section
+javhub.net##._ciw-wrap
+javhub.net##._ciw-show__b._ciw-show__r._ciw__r._ciw__b._ciw-widget
 
-! 2021-08-19 https://www.cocomanhua.com
+! https://www.cocomanhua.com
 @@||cdn.cocomanhua.com.cdn.cloudflare.net^$stylesheet,domain=www.cocomanhua.com
 
 ! 2021-09-15 https://weav.xyz
 weav.xyz###zec26681196a36e1ce968c648529d5563
-
-! 2021-09-16 https://xclient.info
-xclient.info##.abptip
-
-! 2021-09-25 https://javhub.net
-javhub.net##._ciw-wrap
-javhub.net##._ciw-show__b._ciw-show__r._ciw__r._ciw__b._ciw-widget
-
-
-www.iqiyi.com###widget-videorezebra.qy-player-side-list
-www.iqiyi.com###widget-movie-superseries.qy-player-side-list
-!www.iqiyi.com###block-AR.qy-footer-channel
-www.iqiyi.com##.qy-scroll-vpro
-||msg.qy.net^$third-party
-||*.yiqifa.*^$third-party
 
 
 ! BAIDU
