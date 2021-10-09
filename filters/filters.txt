@@ -2,7 +2,7 @@
 ! Expires: 1 days
 ! Description: 把一些觉得不重要的东西屏蔽掉
 ! Homepage: https://github.com/minosss/ex-assets
-! Last updated: 2021-10-08 15:13:55
+! Last updated: 2021-10-09 17:04:37
 !
 
 ||livere.com^$third-party
@@ -68,9 +68,6 @@ www.baidu.com###s_wrap
 ||issuecdn.baidupcs.com/issue/netdisk/guanggao/71090-20191001.png$image
 ||sp0.baidu.com^$third-party
 
-! 2021-01-28 https://www.cocomanhua.com
-@@||cdn.cocomanhua.com.cdn.cloudflare.net^$script,domain=www.cocomanhua.com
-
 ! ad
 www.speedtest.cn##.speed-bottom-ads
 xclient.info##.abptip
@@ -106,8 +103,11 @@ javtiful.com##.mb-lg-3.jk-money.content-section
 javhub.net##._ciw-wrap
 javhub.net##._ciw-show__b._ciw-show__r._ciw__r._ciw__b._ciw-widget
 
-! https://www.cocomanhua.com
+! coco
 @@||cdn.cocomanhua.com.cdn.cloudflare.net^$stylesheet,domain=www.cocomanhua.com
+@@||cdn.cocomanhua.com.cdn.cloudflare.net^$script,domain=www.cocomanhua.com
+www.cocomanga.com##.fed-side-code
+www.cocomanga.com##.fed-goto-info
 
 ! 2021-09-15 https://weav.xyz
 weav.xyz###zec26681196a36e1ce968c648529d5563
