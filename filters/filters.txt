@@ -33,6 +33,10 @@ www.xianman123.com##.comiclist img:style(width: 100%)
 www.cocomanga.com##.fed-side-code
 www.cocomanga.com##.fed-goto-info
 
+www.copymanga.com##.comicDetailAds
+www.copymanga.com##.header-jum
+www.copymanga.com##.indexAds
+
 ! YOUKU
 ||valipl-vip.cp31.ott.cibntv.net^$media
 ||valipl.cp31.ott.cibntv.net^$media
