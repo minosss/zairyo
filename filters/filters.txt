@@ -2,7 +2,7 @@
 ! Expires: 1 days
 ! Description: 把一些觉得不重要的东西屏蔽掉
 ! Homepage: https://github.com/minosss/ex-assets
-! Last updated: 2021-10-09 17:04:37
+! Last updated: 2021-10-28 13:55:00
 !
 
 ||livere.com^$third-party
@@ -76,9 +76,9 @@ xclient.info##.abptip
 2x.antdv.com##.adblock-banner
 
 ! anti app
-www.88kan.com##.main > [href="https://www.88ys.app"]
-www.88kan.com##.main > [href="https://www.88ys.app"]
-www.88kan.com##[src="/images/app.png"]
+www.88kan.tv##.main > [href="https://www.88ys.app"]
+www.88kan.tv##.main > [href="https://www.88ys.app"]
+www.88kan.tv##[src="/images/app.png"]
 v.shensgo.com##.col-pd.stui-player > [href^="http://shensgo.xyz/app/index.php"]
 www.agefans.vip##.app-dl
 
