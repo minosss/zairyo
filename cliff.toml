@@ -17,9 +17,14 @@ body = """
 {% for group, commits in commits | group_by(attribute="group") %}
     ### {{ group | upper_first }}
     {% for commit in commits %}
-        - {% if commit.breaking %}**BREAKING** {% endif %}{{ commit.message | upper_first }}\
+        - {% if commit.breaking %}**BREAKING** {% endif %}{{ commit.message | upper_first }} ({{ commit.id | truncate(length=7, end="") }})\
     {% endfor %}
-{% endfor %}\n
+{% endfor %}\
+{% if previous and version %}\
+    {% if previous.version %}
+        [{{ previous.version }}...{{ version }}](../../compare/{{ previous.version }}...{{ version }})
+    {% endif %}
+{% endif %}\n
 """
 # remove the leading and trailing whitespace from the template
 trim = true
